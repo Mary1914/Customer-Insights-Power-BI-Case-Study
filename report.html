@@ -1,112 +1,51 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Customer Insights Report – Power BI</title>
+  <title>Customer Insights Report</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; max-width: 1050px; line-height: 1.6; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 18px; margin: 18px 0; }
-    .muted { color: #555; }
-    img { max-width: 100%; border-radius: 12px; border: 1px solid #eee; margin-top: 10px; }
-    h1,h2,h3 { margin-bottom: 0.3rem; }
+    body { font-family: Arial; margin: 40px; max-width: 1100px; }
+    img { width: 100%; border: 1px solid #ccc; margin: 20px 0; }
+    h2 { margin-top: 40px; }
   </style>
 </head>
 <body>
 
-<h1>Customer Insights – Power BI Case Study</h1>
-<p class="muted">
-This report explores customer churn drivers using contract type, payment method, usage patterns,
-service calls, and extra charges.
-</p>
+<h1>Customer Insights – Power BI Analysis</h1>
 
-<div class="card">
-<h2>Business Questions</h2>
-<ul>
-  <li>Which customer segments churn the most?</li>
-  <li>How do contract type and payment method affect churn?</li>
-  <li>Does usage behavior or extra charges increase churn risk?</li>
-  <li>Are there geographic churn patterns?</li>
-</ul>
-</div>
+<h2>Dashboard 1 – Overview & KPIs</h2>
+<img src="dashboard1.png">
 
-<div class="card">
-<h2>Dashboard Snapshots</h2>
-
-<h3>Customer KPIs & State-Level View</h3>
-<img src="dashboard1.png" alt="Customer KPIs and churn by state">
-
-<h3>Payment Method & Contract Type</h3>
-<img src="dashboard2.png" alt="Payment method and contract churn">
-
-<h3>Extra Charges & Usage Behavior</h3>
-<img src="dashboard3.png" alt="Extra charges and data usage">
-
-<h3>Grouped Consumption & Unlimited Plans</h3>
-<img src="dashboard4.png" alt="Unlimited plan churn analysis">
-</div>
-
-<div class="card">
-<h2>Key Insights</h2>
-
-<h3>1. Contract Type is a Strong Churn Driver</h3>
-<ul>
-  <li>Monthly contract customers show significantly higher churn than yearly customers.</li>
-  <li>Longer account length correlates with lower churn.</li>
-</ul>
-
-<h3>2. Unlimited Data Plans Reduce Churn</h3>
-<ul>
-  <li>Customers without unlimited plans churn more, especially at low (<5GB) usage levels.</li>
-  <li>Unlimited plans stabilize churn across all usage groups.</li>
-</ul>
-
-<h3>3. Extra Charges Increase Churn Risk</h3>
-<ul>
-  <li>Higher extra international and data charges are linked to higher churn.</li>
-  <li>Customers facing bill surprises are more likely to leave.</li>
-</ul>
-
-<h3>4. Customer Service Calls Are a Warning Signal</h3>
-<ul>
-  <li>Churned customers make significantly more service calls.</li>
-  <li>Repeated calls indicate unresolved issues.</li>
-</ul>
-
-<h3>5. Geographic Patterns Exist</h3>
-<ul>
-  <li>Some states show higher churn clusters, suggesting regional service or pricing differences.</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Results</h2>
-<ul>
-  <li>Churn is highest among monthly, non-unlimited plan customers.</li>
-  <li>Extra charges and frequent support calls strongly correlate with churn.</li>
-  <li>Long-term contracts and unlimited plans improve retention.</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Recommendations</h2>
-<ul>
-  <li>Incentivize migration from monthly to yearly contracts.</li>
-  <li>Promote unlimited data plans to low-usage customers.</li>
-  <li>Reduce extra charges or improve transparency in billing.</li>
-  <li>Proactively target customers with high service call volumes.</li>
-  <li>Investigate high-churn states for operational improvements.</li>
-</ul>
-</div>
-
-<div class="card">
-<h2>Conclusion</h2>
 <p>
-This Power BI dashboard demonstrates how customer behavior, pricing, and service quality directly
-impact churn. By combining KPIs, drill-down visuals, and geographic analysis, the report enables
-business leaders to identify at-risk customers early and apply targeted retention strategies.
+High churn is associated with monthly contracts and higher customer service calls.
 </p>
-</div>
+
+<h2>Dashboard 2 – Payment & Contract Analysis</h2>
+<img src="dashboard2.png">
+
+<p>
+Monthly contract customers show significantly higher churn compared to yearly contracts.
+</p>
+
+<h2>Dashboard 3 – Extra Charges & Usage</h2>
+<img src="dashboard3.png">
+
+<p>
+Customers with higher extra charges (data/international) churn more frequently.
+</p>
+
+<h2>Dashboard 4 – Unlimited Plan Impact</h2>
+<img src="dashboard4.png">
+
+<p>
+Unlimited data plans reduce churn across all consumption groups.
+</p>
+
+<h2>Conclusion</h2>
+<ul>
+  <li>Monthly contracts are the highest churn risk</li>
+  <li>Unlimited plans improve retention</li>
+  <li>Billing transparency is critical</li>
+</ul>
 
 </body>
 </html>
