@@ -1,51 +1,84 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Customer Insights Report</title>
   <style>
-    body { font-family: Arial; margin: 40px; max-width: 1100px; }
-    img { width: 100%; border: 1px solid #ccc; margin: 20px 0; }
-    h2 { margin-top: 40px; }
+    body { font-family: Arial, sans-serif; margin: 40px; max-width: 1100px; line-height: 1.6; }
+    img { width: 100%; height: auto; border: 1px solid #ddd; border-radius: 12px; margin: 14px 0 28px; }
+    .card { border: 1px solid #ddd; border-radius: 12px; padding: 16px; margin: 18px 0; }
+    .muted { color: #555; }
   </style>
 </head>
 <body>
 
-<h1>Customer Insights – Power BI Analysis</h1>
+<h1>Customer Insights – Report</h1>
+<p class="muted">This page shows dashboard screenshots + the insight analysis.</p>
 
-<h2>Dashboard 1 – Overview & KPIs</h2>
-<img src="dashboard1.png">
+<div class="card">
+  <h2>Dashboard 1: Insights Overview (KPIs + Churn by State + Calls)</h2>
+  <img src="dashboard1.png" alt="Dashboard 1">
+  <ul>
+    <li>Churn varies by location (state clusters visible on the map).</li>
+    <li>Customer service calls are a strong churn signal — churned customers show higher call activity.</li>
+  </ul>
+</div>
 
-<p>
-High churn is associated with monthly contracts and higher customer service calls.
-</p>
+<div class="card">
+  <h2>Dashboard 2: Payment Method + Contract Category</h2>
+  <img src="dashboard2.png" alt="Dashboard 2">
+  <ul>
+    <li>Monthly contract customers show much higher churn than yearly.</li>
+    <li>Longer average account length aligns with lower churn.</li>
+  </ul>
+</div>
 
-<h2>Dashboard 2 – Payment & Contract Analysis</h2>
-<img src="dashboard2.png">
+<div class="card">
+  <h2>Dashboard 3: Extra Charges & Usage</h2>
+  <img src="dashboard3.png" alt="Dashboard 3">
+  <ul>
+    <li>Higher extra charges (international/data) correlate with higher churn.</li>
+    <li>Bill surprises are a retention risk — pricing transparency matters.</li>
+  </ul>
+</div>
 
-<p>
-Monthly contract customers show significantly higher churn compared to yearly contracts.
-</p>
+<div class="card">
+  <h2>Dashboard 4: Unlimited Plan vs Churn (Grouped Consumption)</h2>
+  <img src="dashboard4.png" alt="Dashboard 4">
+  <ul>
+    <li>Customers without unlimited plans churn more, especially in low usage groups (&lt;5GB).</li>
+    <li>Unlimited plans reduce churn and stabilize retention across usage ranges.</li>
+  </ul>
+</div>
 
-<h2>Dashboard 3 – Extra Charges & Usage</h2>
-<img src="dashboard3.png">
+<div class="card">
+  <h2>Results</h2>
+  <ul>
+    <li>Highest churn risk = Monthly contract + No unlimited plan + Extra charges + High service calls.</li>
+    <li>Yearly contracts and unlimited plans support stronger retention.</li>
+  </ul>
+</div>
 
-<p>
-Customers with higher extra charges (data/international) churn more frequently.
-</p>
+<div class="card">
+  <h2>Recommendations</h2>
+  <ul>
+    <li>Promote upgrades from monthly to yearly contracts (discounts/loyalty offers).</li>
+    <li>Push unlimited plans to customers showing churn risk, especially low-usage groups.</li>
+    <li>Reduce bill-shock: improve billing transparency, alerts, and charge caps.</li>
+    <li>Use service-call volume as an early warning trigger for retention outreach.</li>
+    <li>Investigate high-churn states for service quality/pricing inconsistencies.</li>
+  </ul>
+</div>
 
-<h2>Dashboard 4 – Unlimited Plan Impact</h2>
-<img src="dashboard4.png">
-
-<p>
-Unlimited data plans reduce churn across all consumption groups.
-</p>
-
-<h2>Conclusion</h2>
-<ul>
-  <li>Monthly contracts are the highest churn risk</li>
-  <li>Unlimited plans improve retention</li>
-  <li>Billing transparency is critical</li>
-</ul>
+<div class="card">
+  <h2>Conclusion</h2>
+  <p>
+    This dashboard clearly links churn to contract type, pricing pressure (extra charges),
+    and service friction (support calls). The insights support targeted retention strategies
+    and improved plan design.
+  </p>
+</div>
 
 </body>
 </html>
