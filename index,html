@@ -1,42 +1,24 @@
 <!doctype html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Customer Insights – Power BI Case Study</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; max-width: 980px; line-height: 1.6; }
-    .card { border: 1px solid #ddd; border-radius: 12px; padding: 18px; margin: 18px 0; }
-    .muted { color: #555; }
-    a.button { display: inline-block; padding: 10px 14px; border: 1px solid #111; border-radius: 10px; text-decoration: none; margin-right: 10px; }
-    a.button:hover { opacity: 0.85; }
+    body { font-family: Arial; margin: 40px; max-width: 900px; }
+    a { padding: 12px 16px; border: 1px solid #000; border-radius: 8px; text-decoration: none; }
   </style>
 </head>
 <body>
-  <h1>Customer Insights – Power BI Case Study</h1>
-  <p class="muted">
-    This project analyzes customer churn, usage behavior, contract types, and extra charges
-    to support data-driven decision-making.
-  </p>
 
-  <div class="card">
-    <h2>View the Project</h2>
-    <p>
-      <a class="button" href="report.html">Open Report</a>
-      <a class="button" href="more_insights_solution.pbix">Download Power BI File</a>
-    </p>
-  </div>
+<h1>Customer Insights – Power BI Case Study</h1>
+<p>
+Power BI dashboard analysing customer churn, usage, contracts, and extra charges.
+</p>
 
-  <div class="card">
-    <h2>Included Files</h2>
-    <ul>
-      <li><code>more_insights_solution.pbix</code> – Power BI dashboard</li>
-      <li><code>Customer-Data.csv</code> – source dataset</li>
-      <li><code>dashboard1.png</code> – <code>dashboard4.png</code> – report screenshots</li>
-      <li><code>report.html</code> – insights & analysis</li>
-    </ul>
-  </div>
+<a href="report.html">📊 View Report</a>
 
-  <p class="muted">Enable GitHub Pages to make this your live portfolio page.</p>
+<p style="margin-top:20px;">
+<a href="more_insights_solution.pbix">⬇ Download PBIX</a>
+</p>
+
 </body>
 </html>
