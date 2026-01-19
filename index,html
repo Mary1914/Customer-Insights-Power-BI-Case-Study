@@ -16,7 +16,8 @@
   <p class="muted">Click “View Report” to see dashboards + insights.</p>
 
   <!-- IMPORTANT: use report.html (no leading slash) -->
-  <a class="btn" href="report.html">📊 View Report</a>
+ <a href="report.html" class="btn">View Full Report →</a>
+ 
   <a class="btn" href="more_insights_solution.pbix">⬇ Download PBIX</a>
 
   <p class="muted" style="margin-top:18px;">
