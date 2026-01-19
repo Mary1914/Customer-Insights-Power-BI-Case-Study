@@ -2,7 +2,7 @@
 # Customer-Insights-Power-BI-Case-Study
 
 🔗 **Live Dashboard (GitHub Pages):**  
-👉 https://YOUR_GITHUB_USERNAME.github.io/Customer-Insights-Power-BI-Case-Study/
+👉 [https://YOUR_GITHUB_USERNAME.github.io/Customer-Insights-Power-BI-Case-Study/](https://mary1914.github.io/Customer-Insights-Power-BI-Case-Study/)
 
 This project analyzes customer churn and behavior using Power BI.  
 It focuses on contract types, payment methods, usage patterns, customer service interactions,
