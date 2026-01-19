@@ -3,6 +3,7 @@
 
 🔗 **Live Dashboard (GitHub Pages):**  
 👉 
+
 https://mary1914.github.io/Customer-Insights-Power-BI-Case-Study/
 
 This project analyzes customer churn and behavior using Power BI.  
